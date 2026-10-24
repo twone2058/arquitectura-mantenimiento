@@ -1,0 +1,11 @@
+﻿* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f3f6f7; color: #253039; }
+main { max-width: 850px; margin: 36px auto; background: white; padding: 28px; border-radius: 12px; }
+label { display: block; margin: 12px 0; }
+input { padding: 8px; margin-left: 8px; min-width: 240px; max-width: 100%; }
+button { background: #0d6270; color: white; border: none; padding: 10px 14px; cursor: pointer; margin: 6px; }
+li { margin: 8px 0; overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  main { margin: 12px; padding: 16px; }
+  input { min-width: 0; width: 100%; margin-left: 0; }
+}

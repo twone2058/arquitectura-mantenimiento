@@ -1,0 +1,24 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ordenes de mantenimiento | Operaciones</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main>
+    <h1>Ordenes de mantenimiento</h1>
+    <p>Registro y consulta de equipos de la empresa de distribucion.</p>
+    <form id="formulario">
+      <label>Equipo<input id="equipo" maxlength="80" required></label>
+      <label>Descripcion<input id="descripcion" maxlength="250" required></label>
+      <button type="submit">Registrar orden</button>
+    </form>
+    <button id="recargar" type="button">Consultar ordenes</button>
+    <p id="estado" role="status"></p>
+    <ul id="ordenes"></ul>
+  </main>
+  <script src="/app.js" defer></script>
+</body>
+</html>
